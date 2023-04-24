@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementation of Js in HTML</title>
+    <script src="/script.js"></script>
+    
+</head>
+<body>
+    <!-- inline -->
+    <h1 id="head">HEading</h1>
+    <button onclick="alert('Hello Word')">Pop Up</button>
+
+    <!-- internal -->
+    <button onclick="fun()">change Heading</button>
+    <script>
+        function fun()
+        {
+            //comment in js
+            var name,msg
+            msg="THE heading will change . click ok"
+            name = "Heading Changed"
+            head.innerHTML=name
+            alert(msg)
+            console.log(10)
+        }
+    </script>
+
+    <button onclick="Change()">change BG colour</button>
+
+
+</body>
+</html>
