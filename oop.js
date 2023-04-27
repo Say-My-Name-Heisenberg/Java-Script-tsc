@@ -1,4 +1,8 @@
 class Main{
+    constructor(age,cls){
+        this.Age=age
+        this.Class=cls
+    }
     name="Boss"
     fun()
     {
@@ -6,6 +10,7 @@ class Main{
     }
 }
 
-ob=new Main()
-console.log(ob.name)
+ob=new Main(10,"H1")
+console.log(ob.Age)
+console.log(ob.Class)
 ob.fun()
