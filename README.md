@@ -3,11 +3,11 @@
 Its a typescript based front end fw,suitable for single page app develpment
 
 #Java Script
-    - Brenden Eich
-    - Mocha -> live Script -> Js
-    - es13
-    - Interpreted Object Orineted Language 
-    - Js Runtime environment -> node.js
+    $ Brenden Eich
+    $ Mocha -> live Script -> Js
+    $ es13
+    $ Interpreted Object Orineted Language 
+    $ Js Runtime environment -> node.js
     
 
 # JS variable
@@ -39,4 +39,4 @@ Its a typescript based front end fw,suitable for single page app develpment
     * Null
     * Undefined 
     * Symbol
-    
+
