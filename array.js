@@ -13,4 +13,11 @@ console.log(Array.isArray(a)) //True
 
 
 
+x=[1,4,5,4,2,43,4]
+x.sort((a,b)=>b-a)
+//function num_sort(a,b){
+    // return b-a
+// }
+console.log(x)
 
+// a function passed into another function as an argument -- callback functions// involkes woth the outer function
