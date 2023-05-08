@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" placeholder="First Number" id="n1">
+    <input type="number" placeholder="Second Number" id="n2">
+
+    <button onclick="sum()"> Submit</button>
+
+    <p id="ttl"></p>
+    <script>
+        function sum(){
+            var x,y,z
+            x=parseInt( n1.value)
+            y=parseInt(n2.value)
+            z=x+y
+            ttl.innerHTML=z
+            console.log(ttl.value)
+        }
+    </script>
+<!-- ////////////////////////////////////////////////////////////////////////// -->
+<input type="text" placeholder="First Number" id="n3">
+    <button onclick="sumC()"> Submit</button>
+
+    <script>
+        function sumC(){
+            console.log(eval(n3.value))
+        }
+    </script>
+</body>
+</html>

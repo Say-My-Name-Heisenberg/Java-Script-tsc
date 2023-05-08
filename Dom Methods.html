@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unauthorized</title>
+</head>
+<body>
+    <h1 id="hd" class="same"> D O  M methods</h1>
+
+    <button onclick="change()">Change</button>
+
+    <p class="same">Para1</p>
+    <p>Para2</p>
+    <ul>
+        <li>document.getElemenById()</li>
+        <li>document.getElemenByTagName()</li>
+        <li>document.getElemenByClassName()</li>
+        <li>document.querySelector()</li>
+        <li>document.querySelectorAll()</li>
+    </ul>
+
+    <script>
+        // console.log(document.getElementById("hd"))
+        // document.getElementById("hd").innerHTML="<i>Hellowww</i>"  //Hellowww
+        // document.getElementById("hd").textContent="<i>Hellowww</i>"  //<i>Hellowww</i>
+        // document.getElementById("hd").style.backgroundColor="green"
+
+        // res=document.getElementsByTagName("p")
+        // for (i of res)
+        //     i.style.backgroundColor="blue"
+
+        // Array.from(res).forEach(item=>{item.style.backgroundColor="yellow"})
+
+        // cls=document.getElementsByClassName("same")
+        // Array.from(cls).forEach(item=>{item.innerHTML="<b> Same Class </b>"})
+
+        // function change(){
+        //     hd.innerHTML="hed  change"
+        //     hd.style.backgroundColor="orange"
+        // }
+
+        document.querySelector("#hd").style.backgroundColor="green"
+        document.querySelector("p").style.border="2px solid red"
+        document.querySelector(".same").style.color="red"
+        res=document.querySelectorAll("same")
+        Array.from(res).forEach(item=>{
+        item.style.border="5px solid blue"
+    })
+
+    </script>
+</body>
+</html>

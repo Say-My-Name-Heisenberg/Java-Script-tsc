@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="i1">
+    <button id="r" onclick="toggle(event)">Red</button>
+    <button id="g" onclick="toggle(event)">Green</button>
+
+    <script>
+        // function red(){
+        //     i1.value="green"
+        //     i1.style.backgroundColor="red"
+        // }
+        
+        // function green(){
+        //     i1.value="red"
+        //     document.querySelector("#i1").style.backgroundColor="green"
+        // }
+            function toggle(event){
+                console.log(event.target.id)
+                if (event.target.id=="r"){
+                    i1.value="green"
+                    i1.style.backgroundColor="red"
+                }
+                else{
+                    i1.value="red"
+                    i1.style.backgroundColor="green"
+                }
+            }
+
+
+        </script>
+
+</body>
+</html>
