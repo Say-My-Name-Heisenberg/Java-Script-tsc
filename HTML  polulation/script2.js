@@ -240,12 +240,14 @@ products = [
       }
     }
   ]
+
+  
 datas=''
 
 products.forEach(item=>{
     datas+=`
-
-    <div class="card" style="width: 18rem;">
+  
+    <div class="card" style="width:18rem">
         <img class="card-img-top" src="${item.image}" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">${item.title}</h5>
@@ -255,7 +257,7 @@ products.forEach(item=>{
           <a href="#" class="btn btn-primary">Buy</a>
         </div>
       
-      </div>`
+    </div>`
 })
 
 id1.innerHTML=datas
